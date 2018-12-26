@@ -87,11 +87,11 @@ _设计网络结构，反转一个变长序列（最大长度N=20），即246910
 3. 禁止直接将input与output层相连
 
 ### TODO
-+ Update task1.py
-+ Update task2.py
-+ Update task3.py
-+ Update task4.py
-+ Update task5.py
-+ Update task6.py
-+ Update task7.py
-+ Update task8.py
++ [] Update task1.py
++ [] Update task2.py
++ [] Update task3.py
++ [] Update task4.py
++ [] Update task5.py
++ [] Update task6.py
++ [] Update task7.py
++ [] Update task8.py
