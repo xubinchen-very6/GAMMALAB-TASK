@@ -92,6 +92,7 @@ _设计网络结构，反转一个变长序列（最大长度N=20），即246910
 ![](./pic/detail.png)
 ![](./pic/clf.png)
 
+
 ### TODO
 - [ ] Update task1.py
 - [ ] Update task2.py
