@@ -101,5 +101,5 @@ _设计网络结构，反转一个变长序列（最大长度N=20），即246910
 - [ ] Update task5.py
 - [ ] Update task6.py
 - [ ] Update task7.py
-- [ ] Update task8.py
+- [x] Update task8 run.py
 - [ ] Update 年终竞赛.py
