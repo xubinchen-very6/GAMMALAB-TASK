@@ -94,7 +94,7 @@ _设计网络结构，反转一个变长序列（最大长度N=20），即246910
 
 
 ### TODO
-- [x] Update task1.py
+- [x] Update task1 run.py <model> <summary> 
 - [ ] Update task2.py
 - [ ] Update task3.py
 - [ ] Update task4.py
