@@ -90,7 +90,17 @@ class Model():
                 step += 1
                 loss, train_op, acc = self.sess.run([self.loss, self.train_op, self.acc],
                                                     feed_dict={self.x: x, self.y: y})
+                loss_sum = tf.Summary(value=[tf.Summary.Value(
+                    tag="model/loss", simple_value=loss), ])
+                self.writer.add_summary(loss_sum, step)
+
+                acc_sum = tf.Summary(value=[tf.Summary.Value(
+                        tag="model/acc", simple_value=acc), ])
+                self.writer.add_summary(acc_sum, step)
                 print('>>> Step%d\'s    Loss:%.4f    ACC:%.4f' % (step, loss, acc))
+                filename = os.path.join(
+                    'model', "model_{}.ckpt".format(e))
+                self.saver.save(self.sess, filename)
 
     def test(self):
         score = []
