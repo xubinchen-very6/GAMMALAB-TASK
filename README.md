@@ -89,8 +89,8 @@ _设计网络结构，反转一个变长序列（最大长度N=20），即246910
 #### 年终竞赛
 > 快乐集成一起吃鸡 很幸运碾压性优势获得第一
 
-![](./pic/detail.png)
-![](./pic/clf.png)
+![TASK](./pic/detail.png)
+![RANK](./pic/clf.png)
 
 
 ### TODO
